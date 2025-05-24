@@ -1,0 +1,8 @@
+.custom-image-container {
+  margin-bottom: -2%;
+}
+
+.custom-image-container > img {
+  width: 100%;
+  height: 100%;
+}
