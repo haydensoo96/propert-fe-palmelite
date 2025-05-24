@@ -22,7 +22,7 @@ const MapComponent = () => {
         >
           {useCheckMobileScreen()
             ? ""
-            : " Within close proximity to Cyberjaya and KLIA, with direct access from ELITE Highway and easy accessibility from other major highways."}
+            : " Within close proximity to Kuala Lumpur and Kajang, with direct access from KESAS Highway and easy accessibility from other major highways."}
         </span>
       </div>
 
