@@ -40,13 +40,13 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a
+            {/* <a
               href="https://virtual.dimensions.my/GamudaNorthWoods/?media-index=1"
               target="_blank"
               style={{ color: menuOpened ? "var(--primary)" : "white" }}
             >
               Virtual View
-            </a>
+            </a> */}
 
             <NavLink
               to="#Layouts"
