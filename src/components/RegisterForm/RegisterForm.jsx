@@ -4,6 +4,8 @@ import userSubmitForm from "../../hooks/useForm.jsx";
 import { useCheckMobileScreen } from "../../utils/common.js";
 
 const RegisterForm = () => {
+  const isMobile = useCheckMobileScreen();
+
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -66,7 +68,7 @@ const RegisterForm = () => {
               <span
                 className="primaryText"
                 style={
-                  useCheckMobileScreen()
+                  isMobile
                     ? { fontWeight: "500", fontSize: "20px" }
                     : { fontWeight: "300", fontSize: "30px" }
                 }
@@ -180,7 +182,7 @@ const RegisterForm = () => {
                 >
                   <p
                     style={
-                      useCheckMobileScreen()
+                      isMobile
                         ? {
                             color: "white",
                             fontSize: "15px",
